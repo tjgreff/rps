@@ -3,10 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <title>Cozinha do Chef Greff</title>
-        <script src="rpsGame.js"></script>
+        <script src="rpsGame.js" async></script>
     </head>
 
     <body>
-        <h1>Rock, Paper, Scissors!</h1>
+        <div id="running-score">
+            <span id="player-score"></span>
+            <span id="computer-score"></span>
+            <span id="tie-score"></span>
+        </div>
+        <div class="btnContainer">
+            <button id="rock" class="btn" type="button">rock</button>
+            <button id="paper" class="btn" type="button">paper</button>
+            <button id="scissors" class="btn" type="button">scissors</button>
+        </div>
+        <div id="result"></div>
     </body>
 </html>
